@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Francois+One&family=Merriweather:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: #071124;
+    height: 100%;
+}
+*::selection{
+    background: yellow;
+}
+html{
+    scroll-behavior:smooth;
+}
+html::-webkit-scrollbar{
+     width: 0.7rem;
+}
+html::-webkit-scrollbar-track{
+    background: blue;
+}
+html::-webkit-scrollbar-thumb{
+    background: #FF4949;
+}
+section{
+    height: 100vh;
+}
+#first{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+#second{
+    height: 70vh;
+    background: linear-gradient(180deg, #0099ffff 0%, #9900efff 100%);
+}
+.ml15 {
+    text-align: center;
+    color: rgb(0, 140, 255);
+    font-size: 100px;
+  }
+  
+.ml15 .word {
+    display: inline-block;
+    /* line-height: 1em; */
+  }
+.word2{
+    color: red;
+}
