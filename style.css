@@ -39,8 +39,7 @@ section{
     height: 100vh;
 }
 #second{
-    height: 60vh;
-
+    height: 100vh;
     background: linear-gradient(180deg, #0099ffff 0%, #9900efff 100%);
     display: flex;
     align-items: center;
