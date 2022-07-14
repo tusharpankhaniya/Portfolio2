@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
-    /* border: 1px solid red; */
 }
 
 body{
@@ -39,11 +38,12 @@ section{
     height: 100vh;
 }
 #second{
-    height: 100vh;
+    height: 60vh;
     background: linear-gradient(180deg, #0099ffff 0%, #9900efff 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 .introname{
     margin-top: 100px;
@@ -51,8 +51,7 @@ section{
 .ml15 {
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 110px;
-    -webkit-box-reflect: below 1px red;
+    font-size: 100px;
 }
 .ml15 .word {
     display: inline-block;
@@ -87,7 +86,10 @@ section{
 .sideline:nth-child(n){
     margin-bottom: 10px;
 }
-
+#first img{
+    position: relative;
+    bottom: 80px;
+}
 /* about section */
 
 .aboutme{
@@ -97,7 +99,7 @@ section{
     justify-content: space-around;
     z-index: 11;
     margin-top: 100px;
-    width: 70%;
+
 }
 #myphoto{
     border-radius: 50%;
@@ -106,30 +108,23 @@ section{
     margin-right: 40px;
 }
 #text{
-    justify-items: center;
+    justify-content: center;
     height: 500px;
     width: 800px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
     color: white;
     letter-spacing: 5px;
     z-index: 1100;
     margin-left: 40px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 .wai{
-    text-align: center;
     color: rgb(0, 251, 255);
     font-family: 'PT Serif', serif;
     font-size: 40px;
 }
 
-hr{
-    position: relative;
-    width: 100px;
-    left: 35vh;
-    top: 10px;
-} 
 
 .ap{
     font-family: 'Secular One', sans-serif;
@@ -138,15 +133,18 @@ hr{
     /* text-align: center; */
     color: rgb(255, 255, 255);
     /* top: 30px; */
-    margin-top: 30px;
+    margin-top: 20px;
     line-height: 2;
     z-index: 111;
     display: flex;
     flex-wrap: wrap;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 @media (max-width:600px) {
+    #first img{
+        position: static;
+    }
     .sideline{
         width: 300px;
     }
@@ -171,7 +169,7 @@ hr{
     }
     .aboutme{
       position: relative;
-      bottom: 50px;
+      bottom: 30px;
       width: 415px;
       /* margin: 0; */
     }
