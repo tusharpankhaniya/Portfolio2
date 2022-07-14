@@ -12,34 +12,62 @@
 </head>
 
 <body>
+
+    <div class="threeline">
+        <div class="sideline line1"></div>
+        <div class="sideline line2"></div>
+        <div class="sideline line3"></div>
+    </div>
+    <div class="social">
+        <div class="redline"></div>
+        <ul id="socialul">
+            <li><a href="https://www.instagram.com/tushar.p_22/" id="insta"><img src="image/instagram.png"></a>
+                    </li>
+            <li><a href="https://www.facebook.com/tushar.pankhaniya.52"> <img src="image/facebook.png"></a></li>
+            <li><a href="https://github.com/tusharpankhaniya"><img src="image/github.png"></a></li>
+            <li><a href="https://twitter.com/tusharjp9"><img src="image/twitter.png"></a></li>
+        </ul>
+        <div class="redline redline2"></div>
+        <div class="redline redline3"></div>
+        <div class="redline redline4"></div>
+    </div>
     <section id="first">
         <div class="introname">
             <h1 class="ml15">
-                    <span class="word">I AM</span><br>
-                    <span class="word word2">TUSHAR</span>
-            </h1>
+                <span class="word word1">I AM</span><br>
+                <span class="word word2">TUSHAR</span>
+            </h1><br>
+            <h2>~ A <span class="typinganimation"></span></h2>
         </div>
-    <img src="upperwaves.svg">
+        <img id="uppersvg" src="upperwaves.svg">
     </section>
     <section id="second">
-        <div class="middlewavepage"></div>       
-    </section>
-    <section id="third">
-        <img src="lowerwawes.svg">
-    </section>
-    <!-- <div class="intropage">
-        <div class="introflex">
-            <div class="intro-text">
-                <h1>I AM <br><span>TUSHAR</span></h1>
+            <div class="aboutme">
+                <img src="../image/myphoto.jpeg" id="myphoto">
+                <div id="text">
+                    <h1 class="wai">Who Am I?</h1>
+                    <hr>
+                    <p class="ap">
+                        Hey there, Nice to see you... I'm Tushar Pankhaniya<br>
+                        I'm a frontend web developer and UI designer.<br>
+                        Currently, I am pursuing Information technology. I've started my work as a fresher.<br>
+                        Since I can remember, I've always been curious about new technology, programming.
+                        <br>
+                        Some of the fields I like to explore are Astronomy, Science Mysteries , Mythologies.
+                        </span>
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <img class="wavesimg" src="waves.svg" alt="">
-        </div>
-    </div> -->
+    </section>
+    
+    <section id="third">
+        <img src="lowerwawes.svg"> 
+    </section>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+referrerpolicy="no-referrer"></script>
 <script>
-    anime.timeline({loop: true})
+anime.timeline({loop: true})
   .add({
     targets: '.ml15 .word',
     scale: [14,1],
@@ -50,8 +78,18 @@
   }).add({
     targets: '.ml15',
     opacity: 0,
+    duration: 1000,
     easing: "easeOutExpo",
-    delay: 10000
+    delay: 1000
   });
+</script>
+  <!-- typing animation -->
+  <script>
+    var typed = new Typed(".typinganimation", {
+        strings: ["Web Devloper", "UX/UI Designer", "Designer", "Technophile"],
+        typeSpeed: 90,
+        BackSpeed: 70,
+        loop: true
+    })
 </script>
 </html>
