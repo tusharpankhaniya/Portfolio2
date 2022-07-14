@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Francois+One&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=PT+Serif:wght@700&family=Secular+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+    /* border: 1px solid red; */
 }
 
 body{
-    background-color: #071124;
+    background-color:#071124;
     height: 100%;
 }
 *::selection{
@@ -33,25 +35,214 @@ section{
     align-items: flex-end;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
+    height: 100vh;
 }
 #second{
-    height: 50rem;
+    height: 60vh;
     background: linear-gradient(180deg, #0099ffff 0%, #9900efff 100%);
-}
-.ml15 {
-    text-align: center;
-    color: rgb(0, 140, 255);
-    font-size: 100px;
-    
-  }
-  
-.ml15 .word {
-    display: inline-block;
-    /* line-height: 1em; */
-  }
-.word2{
-    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .introname{
-    margin-top: 50px;
+    margin-top: 100px;
+}
+.ml15 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 110px;
+    -webkit-box-reflect: below 1px red;
+}
+.ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+    color: blue;
+}
+.ml15 .word2{
+    color: red;
+}
+.introname h2{
+    color: yellow;
+    font-family: 'Merriweather', serif;
+}
+.threeline{
+    position: absolute;
+}
+.sideline{
+    height: 10px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 0 10px 10px 0;
+}
+.sideline.line2{
+    background-color:red;
+    width: 300px;
+}
+.sideline.line3{
+    background-color: yellow;
+    width: 200px;
+}
+.sideline:nth-child(n){
+    margin-bottom: 10px;
+}
+
+/* about section */
+
+.aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 11;
+    margin-top: 100px;
+    width: 70%;
+}
+#myphoto{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-right: 40px;
+}
+#text{
+    justify-items: center;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 5px;
+    z-index: 1100;
+    margin-left: 40px;
+}
+.wai{
+    text-align: center;
+    color: rgb(0, 251, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+}
+
+hr{
+    position: relative;
+    width: 100px;
+    left: 35vh;
+    top: 10px;
+} 
+
+.ap{
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* text-align: center; */
+    color: rgb(255, 255, 255);
+    /* top: 30px; */
+    margin-top: 30px;
+    line-height: 2;
+    z-index: 111;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 21px;
+}
+
+@media (max-width:600px) {
+    .sideline{
+        width: 300px;
+    }
+    .sideline.line2{
+        width: 200px;
+    }
+    .sideline.line3{
+        width: 100px;
+    }
+    #second{
+        height: 110vh;
+    }
+    #myphoto{
+        margin-left: 50px;
+        height: 300px;
+        width: 300px;
+    }
+    .ap{
+        text-align: center;
+        font-size: 17px;
+        margin: 0;
+    }
+    .aboutme{
+      position: relative;
+      bottom: 50px;
+      width: 415px;
+      /* margin: 0; */
+    }
+    #text{ 
+        margin: 10px;
+        padding: 0;
+    }
+    hr{
+       display: none;
+    } 
+    .ml15 {
+      font-size: 60px;
+    }
+}
+
+.social{
+    /* display: none; */
+    position: fixed;
+    right: 25px;
+    z-index: 1000;
+    border-radius: 10px;
+}
+@media (max-width:800px){
+    .social{
+        right: 7px;
+    }
+}
+.social li{
+    margin: 10px;
+    list-style-type: none;
+}
+.social li:nth-child(1){
+    margin-top: 30px;
+}
+
+.social #socialul img{
+    height: 40px;
+} 
+
+.social .redline{
+    position: relative;
+    top: -10px;
+    transform: rotate(90deg);
+    height: 8px;
+    background-color: red;
+    margin-top: 30px;
+    overflow-y: hidden;
+    border-radius: 0 10px 10px 0;
+}
+.social .redline2{
+    top: -10px;
+    width: 20px;
+    right: -20px;
+}
+.social .redline3{
+    background-color: blue;
+    top: -20px;
+    width: 10px;
+    right: -25px;
+    border-radius: 50%;
+}
+.social .redline4{
+    background-color: blue;
+    top: -30px;
+    width: 10px;
+    right: -25px;
+    border-radius: 50%;
+}
+#third{
+    background-image: url(image/cardbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
