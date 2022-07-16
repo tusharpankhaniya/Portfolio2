@@ -326,12 +326,12 @@ html::-webkit-scrollbar-thumb{
     }
     .sades .sadesline{
         width: 8px;
-        height: 150px;
+        height: 125px;
     }
     .sades .sadessmall{
-        height: 135px;
+        height: 115px;
     }
     .sades .sadessmall2{
-        height: 120px;
+        height: 106px;
     }
 }
