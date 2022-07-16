@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Francois+One&family=Merriweather:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=PT+Serif:wght@700&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +8,10 @@
 }
 
 body{
-    background-color:#071124;
-    height: 100%;
+    background-color:#071124; 
 }
 *::selection{
-    background: yellow;
+    background: rgb(0, 213, 255);
 }
 html{
     scroll-behavior:smooth;
@@ -25,25 +25,41 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: #FF4949;
 }
-section{
-    height: 50rem;
-}
+
 #first{
     display: flex;
-    flex-wrap: wrap;
+    height: 120vh;
+    width: 100%;
     align-items: flex-end;
-    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
     overflow: hidden;
-    height: 100vh;
 }
+/* #9900efff #0099ffff 0%, #15c6c0 */
 #second{
-    height: 60vh;
-    background: linear-gradient(180deg, #0099ffff 0%, #9900efff 100%);
+    height: 100vh;
+    background:linear-gradient(180deg, #1900ff 0%, #02eeff 100%);
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
+}
+#third{
+    display: flex;
+    height: 150vh;
+    align-items: flex-start;
+    overflow: hidden;
+    background-image: url(image/cardbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#overlay{
+    height: 150vh;
+    width: 100%;
+    background: black;
+    position: absolute;
+    filter: opacity(.4);
 }
 .introname{
     margin-top: 100px;
@@ -86,10 +102,7 @@ section{
 .sideline:nth-child(n){
     margin-bottom: 10px;
 }
-#first img{
-    position: relative;
-    bottom: 80px;
-}
+
 /* about section */
 
 .aboutme{
@@ -115,7 +128,7 @@ section{
     color: white;
     letter-spacing: 5px;
     z-index: 1100;
-    margin-left: 40px;
+    /* margin-left: 20px; */
     flex-wrap: wrap;
     text-align: center;
 }
@@ -127,13 +140,12 @@ section{
 
 
 .ap{
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Roboto Slab', serif;
     letter-spacing: 1px;
     font-weight: 500;
     /* text-align: center; */
-    color: rgb(255, 255, 255);
-    /* top: 30px; */
-    margin-top: 20px;
+    color: black;
+    margin-top: 0px;
     line-height: 2;
     z-index: 111;
     display: flex;
@@ -141,9 +153,19 @@ section{
     font-size: 20px;
 }
 
-@media (max-width:600px) {
-    #first img{
-        position: static;
+@media (max-width:800px) {
+    #second{
+        /* scroll-behavior:smooth; */
+        height: 110vh;
+    }
+    #second::-webkit-scrollbar{
+         width: 0.7rem;
+    }
+    #second::-webkit-scrollbar-track{
+        background: rgb(238, 255, 0);
+    }
+    #second::-webkit-scrollbar-thumb{
+        background: blue;
     }
     .sideline{
         width: 300px;
@@ -156,6 +178,7 @@ section{
     }
     #second{
         height: 110vh;
+        /* overflow-y:visible; */
     }
     #myphoto{
         margin-left: 50px;
@@ -171,7 +194,6 @@ section{
       position: relative;
       bottom: 30px;
       width: 415px;
-      /* margin: 0; */
     }
     #text{ 
         margin: 10px;
@@ -189,13 +211,8 @@ section{
     /* display: none; */
     position: fixed;
     right: 25px;
-    z-index: 1000;
+    z-index: 111111111;
     border-radius: 10px;
-}
-@media (max-width:800px){
-    .social{
-        right: 7px;
-    }
 }
 .social li{
     margin: 10px;
@@ -238,9 +255,80 @@ section{
     right: -25px;
     border-radius: 50%;
 }
-#third{
-    background-image: url(image/cardbg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+@media (max-width:800px){
+    .social{
+        right: 1px;
+    }
+    .social #socialul img{
+        height: 30px;
+    }
+    .social .redline2{
+        right: -15px;
+    }
+    .social .redline3{right: -20px;}
+    .social .redline4{right: -20px;}
+}
+
+.svgwaves{
+    display: flex;
+    height: 150vh;
+    width: 100%;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+}
+
+#fourth{
+    height: 150vh;
+    background-color: #02eeff;
+}
+
+@media (max-width:800px) {
+    #fourth{
+        height: 120vh;
+    }
+}
+.sades{
+    display:flex;
+    position: fixed;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    z-index: -1;
+}
+
+.sades .sadesline{
+    height: 250px;
+    width: 20px;
+    background-color: rgba(0, 0, 255, 0.664);
+    border-radius: 10px;
+}
+.sades .sadessmall{
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.642);
+}
+
+.sades .sadessmall2{
+    height: 230px;
+    background-color: rgba(127, 255, 212, 0.582);
+}
+
+
+@media (max-width:800px){
+    .sades{
+        justify-content: space-evenly;
+    }
+    .sades .sadesline{
+        width: 8px;
+        height: 140px;
+    }
+    .sades .sadessmall{
+        height: 125px;
+    }
+    .sades .sadessmall2{
+        height: 110px;
+    }
 }
