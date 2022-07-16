@@ -1,0 +1,45 @@
+#five{
+    height: 150vh;
+}
+.five1{
+    height: 150vh;
+    background-color: #071124;
+}
+.contactanimation{
+    position: relative;
+    left: 20px;
+}
+@media (max-width:800px) {
+    #five{
+        height: 100vh;
+    }
+    .five1{
+        height: 100vh;
+    }
+    lottie-player{
+        display: none;
+    }
+}
+.contectform{
+    display: flex;
+    align-items: center;
+}
+#line{
+    height: 500px;
+    width: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.innerform{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 200px;
+    background: rgba( 7, 17, 36, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
