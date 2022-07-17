@@ -14,10 +14,10 @@
 }
 @media (max-width:800px) {
     #five{
-        height: 100vh;
+        height: 150vh;
     }
     .five1{
-        height: 100vh;
+        height: 150vh;
     }
     lottie-player{
         display: none;
@@ -199,3 +199,4 @@ button[type="submit"]
     height: 30px;
     width: 30px;
 }
+
