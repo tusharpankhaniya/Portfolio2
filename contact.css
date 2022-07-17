@@ -3,7 +3,10 @@
 }
 .five1{
     height: 150vh;
-    background-color: #071124;
+    /* background-color: #071124; */
+    background: fixed;
+    background-image: url(image/contaactbackground.png);
+    background-size: cover;
 }
 .contactanimation{
     position: relative;
@@ -19,10 +22,14 @@
     lottie-player{
         display: none;
     }
+    .contactanimation{
+        display: none;
+    }
 }
 .contectform{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #line{
     height: 500px;
@@ -32,10 +39,13 @@
 }
 
 .innerform{
-    height: 500px;
-    width: 400px;
+    height: 550px;
+    width: 700px;
     position: relative;
-    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
     background: rgba( 7, 17, 36, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8.5px );
@@ -44,14 +54,148 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.contactus{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.contactus .row100{
+    position: relative;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
 @media (max-width:800px){
-    #line{
-        display: none;
+    .contactus{
+        width: 90%;
     }
-    .innerform{
-        display: none;
-    }
-    .contactanimation{
-        display: none;
-    }
+    
+}
+
+.contactus .row100 .col{
+    position: relative;
+    width: 100%;
+    margin: 40px 0 0px;
+    transition: 0.5s;
+}
+
+.contactus .row100 .inputbox{
+    height: 40px;
+    color: #08d8fd;
+}
+
+.contactus .row100 .inputbox input,
+.contactus .row100 .inputbox.textarea textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: black;
+    font-weight: 400;
+}
+
+.contactus .row100 .inputbox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    /* padding: 0 10px; */
+    display: block;
+    transition: .5s;
+    pointer-events: none;
+}
+
+.contactus .row100 .inputbox input:focus + .text,
+.contactus .row100 .inputbox input:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+
+.contactus .row100 .inputbox .line{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 2px;
+    background: #08d8fd;
+    transition: .5s;
+    border-radius: 2px;
+
+}
+
+.contactus .row100 .inputbox input:focus ~ .line,
+.contactus .row100 .inputbox input:valid ~ .line{
+    height: 100%;
+}
+
+.contactus .row100 .inputbox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.contactus .row100 .inputbox.textarea textarea{
+    height: 100%;
+    resize: none;
+}
+
+.contactus .row100 .inputbox textarea:focus + .text,
+.contactus .row100 .inputbox textarea:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+.contactus .row100 .inputbox textarea:focus ~ .line,
+.contactus .row100 .inputbox textarea:valid ~ .line{
+    height: 100%;
+}
+
+button[type="submit"]
+{
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline:none;
+    background: #08fdf1;
+    font-size: 18px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactheader{
+    color: rgb(0, 251, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    letter-spacing: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.emailme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.emailme h2{
+    margin: 10px;
+    color: #08d8fd;
+}
+.emailme a{
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    color:aquamarine;
+}
+.emailme img{
+    height: 30px;
+    width: 30px;
 }
