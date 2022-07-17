@@ -326,17 +326,18 @@ html::-webkit-scrollbar-thumb{
 
 
 @media (max-width:800px){
-    .sades{
-        justify-content: space-evenly;
-    }
+
     .sades .sadesline{
-        width: 8px;
-        height: 210px;
+/*         width: 8px;
+        height: 210px; */
+        display: none;
     }
     .sades .sadessmall{
-        height: 200px;
+/*         height: 200px; */
+        display: none;
     }
     .sades .sadessmall2{
-        height: 195px;
+/*         height: 195px; */
+        display: none;
     }
 }
