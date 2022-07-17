@@ -154,9 +154,6 @@ html::-webkit-scrollbar-thumb{
 }
 
 @media (max-width:800px) {
-    #first{
-        height:100vh
-    }
     #second{
         /* scroll-behavior:smooth; */
         height: 110vh;
@@ -309,6 +306,14 @@ html::-webkit-scrollbar-thumb{
     background-color: rgba(0, 0, 255, 0.664);
     border-radius: 10px;
 }
+.sades .sadesline::before{
+    content: "";
+    height: 210px;
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.449);
+    border-radius: 10px;
+    position: absolute;
+}
 .sades .sadessmall{
     height: 200px;
     background-color: rgba(255, 0, 0, 0.642);
@@ -316,7 +321,7 @@ html::-webkit-scrollbar-thumb{
 
 .sades .sadessmall2{
     height: 230px;
-    background-color: rgba(127, 255, 212, 0.582);
+    background-color: rgba(5, 240, 240, 0.775);
 }
 
 
@@ -326,12 +331,12 @@ html::-webkit-scrollbar-thumb{
     }
     .sades .sadesline{
         width: 8px;
-        height: 100px;
+        height: 140px;
     }
     .sades .sadessmall{
-        height: 90px;
+        height: 125px;
     }
     .sades .sadessmall2{
-        height: 85px;
+        height: 110px;
     }
 }
