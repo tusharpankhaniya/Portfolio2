@@ -46,17 +46,43 @@
     border-radius: 50%;
 }
 
-.skillprogressname{
+.circle1 .skillprogressname{
   font-family: 'Lato', sans-serif;
   position: absolute;
-  bottom: 5rem;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.623);
+  margin-top: 190px;
+  border-radius: 10px;
+  height: 40px;
+  width: 130px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  visibility: hidden;
 }
+
 .skillprogressname1{
   font-family: 'Lato', sans-serif;
   position: absolute;
-  bottom: -7.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 10px;
+  height: 40px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 190px;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.circle1:hover .skillprogressname{
+  visibility: visible;
+}
+.circle1:hover .skillprogressname1{
+  visibility: visible;
 }
 
 @media (max-width:800px){
@@ -67,6 +93,7 @@
     display: none;
   }
 }
+
 /* circle progress */
 
 .circle-chart {
