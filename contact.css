@@ -8,6 +8,16 @@
     background-image: url(image/contaactbackground.png);
     background-size: cover;
 }
+
+.contactheader{
+    color: rgb(0, 251, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    letter-spacing: 2;
+    display: flex;
+    justify-content: center;
+}
+
 .contactanimation{
     position: relative;
     left: 20px;
@@ -15,10 +25,9 @@
 @media (max-width:800px) {
     #five{
         height: 150vh;
-        align-items: center;
     }
     .five1{
-        height: 150vh;
+        height: 100vh;
     }
     lottie-player{
         display: none;
@@ -26,11 +35,21 @@
     .contactanimation{
         display: none;
     }
+    .contactheader{
+        position: relative;
+        top: 150px;
+    }
 }
 .contectform{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width:800px) {
+    .contectform{
+        position: relative;
+        top: 200px;
+    }
 }
 #line{
     height: 500px;
@@ -171,15 +190,6 @@ button[type="submit"]
     justify-content: center;
 }
 
-
-.contactheader{
-    color: rgb(0, 251, 255);
-    font-family: 'PT Serif', serif;
-    font-size: 20px;
-    letter-spacing: 2;
-    display: flex;
-    justify-content: center;
-}
 
 .emailme{
     display: flex;
