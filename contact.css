@@ -1,2 +1,201 @@
+#five{
+    height: 150vh;
+}
+.five1{
+    height: 150vh;
+    /* background-color: #071124; */
+    background: fixed;
+    background-image: url(image/contaactbackground.png);
+    background-size: cover;
+}
+.contactanimation{
+    position: relative;
+    left: 20px;
+}
+@media (max-width:800px) {
+    #five{
+        height: 100vh;
+    }
+    .five1{
+        height: 100vh;
+    }
+    lottie-player{
+        display: none;
+    }
+    .contactanimation{
+        display: none;
+    }
+}
+.contectform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#line{
+    height: 500px;
+    width: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
 
-[class~=five1],#five{height:150vh;}[class~=five1]{background-image:url("image/contaactbackground.png");}[class~=five1]{background-size:cover;}[class~=contactanimation]{position:relative;}[class~=contactanimation]{left:20px;}@media (max-width:800px){.contactanimation,lottie-player{display:none;}#five,[class~=five1]{height:100vh;}}[class~=contectform],[class~=innerform]{display:flex;}[class~=innerform],[class~=contectform]{align-items:center;}[class~=contectform],[class~=innerform]{justify-content:center;}[class~=innerform]{height:412.5pt;}[class~=innerform]{width:700px;}[class~=innerform],[class~=contactus] [class~=row100]{position:relative;}[class~=innerform]{top:3.125pc;}[class~=innerform]{background:rgba(7,17,36,.2);}[class~=innerform]{box-shadow:0 .083333333in .333333333in 0 rgba(31,38,135,.37);}[class~=innerform]{backdrop-filter:blur(8.5px);}[class~=innerform]{-webkit-backdrop-filter:blur(8.5px);}[class~=innerform],#line{border-radius:10px;}#line{height:31.25pc;}[class~=innerform]{border-left-width:.010416667in;}[class~=innerform]{border-bottom-width:.010416667in;}[class~=innerform]{border-right-width:.010416667in;}[class~=innerform]{border-top-width:.010416667in;}[class~=innerform]{border-left-style:solid;}[class~=innerform]{border-bottom-style:solid;}[class~=innerform]{border-right-style:solid;}[class~=innerform]{border-top-style:solid;}[class~=innerform]{border-left-color:rgba(255,255,255,.18);}[class~=innerform]{border-bottom-color:rgba(255,255,255,.18);}[class~=innerform]{border-right-color:rgba(255,255,255,.18);}[class~=innerform]{border-top-color:rgba(255,255,255,.18);}[class~=innerform]{border-image:none;}[class~=contactus],[class~=contactus] [class~=row100]{width:100%;}[class~=contactus]{height:100%;}[class~=contactus]{padding-left:.416666667in;}[class~=contactus]{padding-bottom:.416666667in;}[class~=contactus]{padding-right:.416666667in;}[class~=contactus]{padding-top:.416666667in;}#line{width:.625pc;}#line{background-color:red;}[class~=contactus] [class~=row100]{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}@media (max-width:800px){[class~=contactus]{width:90%;}}[class~=contactheader]{color:#00fbff;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-left-width:medium;}[class~=contactus] [class~=row100] [class~=inputbox] input:focus + [class~=text],.contactus .row100 .inputbox textarea:focus + .text{top:-2.1875pc;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{border-bottom-width:medium;}[class~=contactheader]{font-family:"PT Serif",serif;}[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,.contactus .row100 .inputbox .text{position:absolute;}[class~=contactheader]{font-size:1.25pc;}[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{width:100%;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-right-width:medium;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{border-top-width:medium;}[class~=contactus] [class~=row100] [class~=inputbox] input:focus ~ [class~=line],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{height:100%;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-left-style:none;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{background:transparent;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{box-shadow:none;}[class~=contactus] [class~=row100] [class~=inputbox] input:focus + [class~=text],.contactus .row100 .inputbox textarea:focus + .text{left:-7.5pt;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input{border-bottom-style:none;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input{border-right-style:none;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-top-style:none;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-left-color:currentColor;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{border-bottom-color:currentColor;}[class~=contactheader]{letter-spacing:2;}[class~=contactus] [class~=row100] [class~=inputbox] input,button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-right-color:currentColor;}.contactus .row100 .inputbox .text{top:0;}.contactus .row100 .inputbox .text{left:0;}[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,button[type="submit"]{border-top-color:currentColor;}[class~=contactus] [class~=row100] [class~=inputbox] input,button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{border-image:none;}[class~=contactus] [class~=row100] [class~=col]{position:relative;}.contactus .row100 .inputbox .text{line-height:40px;}.contactus .row100 .inputbox .text,button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{font-size:18px;}[class~=emailme],[class~=contactheader]{display:flex;}.contactus .row100 .inputbox .text{display:block;}[class~=emailme],button[type="submit"],[class~=contactheader]{justify-content:center;}button[type="submit"]{padding-left:.364583333in;}button[type="submit"]{padding-bottom:5.25pt;}.contactus .row100 .inputbox .text,[class~=contactus] [class~=row100] [class~=inputbox] [class~=line]{transition:.5s;}button[type="submit"]{padding-right:.364583333in;}.contactus .row100 .inputbox .text{pointer-events:none;}button[type="submit"]{padding-top:5.25pt;}button[type="submit"]{cursor:pointer;}[class~=contactus] [class~=row100] [class~=inputbox] [class~=line]{position:absolute;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{outline:none;}button[type="submit"]{background:#08fdf1;}[class~=contactus] [class~=row100] [class~=inputbox] textarea:focus ~ [class~=line],.contactus .row100 .inputbox input:valid ~ .line{height:100%;}button[type="submit"],[class~=contactus] [class~=row100] [class~=inputbox] [class~=line]{border-radius:.125pc;}[class~=contactus] [class~=row100] [class~=inputbox] [class~=line],button[type="submit"]{display:flex;}[class~=contactus] [class~=row100] [class~=inputbox] [class~=line]{bottom:0;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{padding-left:.625pc;}[class~=contactus] [class~=row100] [class~=col],[class~=contactus] [class~=row100] [class~=inputbox] [class~=line],[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{width:100%;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{padding-bottom:0;}[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{padding-right:.625pc;}[class~=contactus] [class~=row100] [class~=col]{margin-left:0;}[class~=emailme] h2{margin-left:7.5pt;}[class~=contactus] [class~=row100] [class~=inputbox] [class~=line]{height:.020833333in;}[class~=contactus] [class~=row100] [class~=col]{margin-bottom:0pt;}[class~=emailme] h2{margin-bottom:7.5pt;}[class~=emailme] h2{margin-right:7.5pt;}[class~=emailme] h2{margin-top:7.5pt;}[class~=contactus] [class~=row100] [class~=inputbox] input,[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{padding-top:0;}[class~=contactus] [class~=row100] [class~=inputbox],[class~=emailme] h2{color:#08d8fd;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{z-index:1;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{color:black;}[class~=emailme] a{text-decoration:none;}[class~=contactus] [class~=row100] [class~=inputbox] [class~=line]{background:#08d8fd;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] input{font-weight:400;}[class~=contactus] [class~=row100] [class~=col]{margin-right:0;}[class~=emailme] a{font-family:"PT Serif",serif;}[class~=emailme] a{color:aquamarine;}[class~=emailme]{flex-direction:column;}[class~=emailme] img{height:.3125in;}[class~=contactus] [class~=row100] [class~=inputbox] textarea:valid + [class~=text],[class~=contactus] [class~=row100] [class~=inputbox] input:valid + [class~=text]{top:-2.1875pc;}[class~=contactus] [class~=row100] [class~=inputbox] input:valid + [class~=text],[class~=contactus] [class~=row100] [class~=inputbox] textarea:valid + [class~=text]{left:-7.5pt;}[class~=emailme] img{width:30px;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{position:relative;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea,[class~=contactus] [class~=row100] [class~=inputbox] textarea:valid ~ [class~=line]{height:100%;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea] textarea{resize:none;}[class~=contactus] [class~=row100] [class~=col]{margin-top:40px;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{height:100px;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{padding-left:0;}[class~=emailme]{align-items:center;}[class~=contactus] [class~=row100] [class~=col]{transition:.5s;}[class~=contactus] [class~=row100] [class~=inputbox]{height:40px;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{padding-bottom:.625pc;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{padding-right:0;}[class~=contactus] [class~=row100] [class~=inputbox][class~=textarea]{padding-top:.625pc;}
+.innerform{
+    height: 550px;
+    width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    background: rgba( 7, 17, 36, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.contactus{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.contactus .row100{
+    position: relative;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+@media (max-width:800px){
+    .contactus{
+        width: 90%;
+    }
+    
+}
+
+.contactus .row100 .col{
+    position: relative;
+    width: 100%;
+    margin: 40px 0 0px;
+    transition: 0.5s;
+}
+
+.contactus .row100 .inputbox{
+    height: 40px;
+    color: #08d8fd;
+}
+
+.contactus .row100 .inputbox input,
+.contactus .row100 .inputbox.textarea textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: black;
+    font-weight: 400;
+}
+
+.contactus .row100 .inputbox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    /* padding: 0 10px; */
+    display: block;
+    transition: .5s;
+    pointer-events: none;
+}
+
+.contactus .row100 .inputbox input:focus + .text,
+.contactus .row100 .inputbox input:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+
+.contactus .row100 .inputbox .line{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 2px;
+    background: #08d8fd;
+    transition: .5s;
+    border-radius: 2px;
+
+}
+
+.contactus .row100 .inputbox input:focus ~ .line,
+.contactus .row100 .inputbox input:valid ~ .line{
+    height: 100%;
+}
+
+.contactus .row100 .inputbox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.contactus .row100 .inputbox.textarea textarea{
+    height: 100%;
+    resize: none;
+}
+
+.contactus .row100 .inputbox textarea:focus + .text,
+.contactus .row100 .inputbox textarea:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+.contactus .row100 .inputbox textarea:focus ~ .line,
+.contactus .row100 .inputbox textarea:valid ~ .line{
+    height: 100%;
+}
+
+button[type="submit"]
+{
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline:none;
+    background: #08fdf1;
+    font-size: 18px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactheader{
+    color: rgb(0, 251, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    letter-spacing: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.emailme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.emailme h2{
+    margin: 10px;
+    color: #08d8fd;
+}
+.emailme a{
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    color:aquamarine;
+}
+.emailme img{
+    height: 30px;
+    width: 30px;
+}
