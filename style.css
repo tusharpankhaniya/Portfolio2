@@ -156,7 +156,7 @@ html::-webkit-scrollbar-thumb{
 @media (max-width:800px) {
     #second{
         /* scroll-behavior:smooth; */
-        height: 110vh;
+        height: 150vh;
     }
     #second::-webkit-scrollbar{
          width: 0.7rem;
