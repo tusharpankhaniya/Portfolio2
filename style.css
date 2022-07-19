@@ -156,7 +156,7 @@ html::-webkit-scrollbar-thumb{
 @media (max-width:800px) {
     #second{
         /* scroll-behavior:smooth; */
-        height: 180vh;
+        height: 110vh;
     }
     #second::-webkit-scrollbar{
          width: 0.7rem;
@@ -177,7 +177,7 @@ html::-webkit-scrollbar-thumb{
         width: 100px;
     }
     #second{
-        height: 110vh;
+        height: 180vh;
         /* overflow-y:visible; */
     }
     #myphoto{
@@ -288,7 +288,7 @@ html::-webkit-scrollbar-thumb{
 
 @media (max-width:800px) {
     #fourth{
-        height: 180vh;
+        height: 160vh;
     }
 }
 .sades{
