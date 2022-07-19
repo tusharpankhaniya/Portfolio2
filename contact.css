@@ -14,10 +14,11 @@
 }
 @media (max-width:800px) {
     #five{
-        height: 100vh;
+        height: 150vh;
+        align-items: center;
     }
     .five1{
-        height: 100vh;
+        height: 150vh;
     }
     lottie-player{
         display: none;
